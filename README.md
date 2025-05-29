@@ -1,4 +1,4 @@
-# cuda
+# PyTorch
 Cuda Installation
 Ya, tentu bisa! Instalasi Python dan CUDA di Windows sangat memungkinkan dan cukup straightforward. Berikut langkah-langkahnya:
 
@@ -79,3 +79,4 @@ python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}'); 
 
 Setelah ini, PyTorch seharusnya bisa detect dan menggunakan GPU NVIDIA Anda. Coba jalankan perintah di atas dan lihat hasilnya!
 
+# TensorFlow
