@@ -2,6 +2,16 @@
 Cuda Installation
 Ya, tentu bisa! Instalasi Python dan CUDA di Windows sangat memungkinkan dan cukup straightforward. Berikut langkah-langkahnya:
 
+```sh
+python3 -m pip install tensorflow[and-cuda]
+# Verify the installation:
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+```
+
+```sh
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+```
+
 ## Instalasi Python
 
 **Opsi 1: Download langsung dari python.org**
