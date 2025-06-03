@@ -10,6 +10,7 @@ python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'
 
 ```sh
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+python3 -c "import torch; torch.cuda.is_available()"
 ```
 
 ## Instalasi Python
