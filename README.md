@@ -14,6 +14,27 @@ python3 -c "import torch; torch.cuda.is_available()"
 python3 -c "import torch; print(torch.backends.cudnn.version())"
 ```
 
+## uv virtuan env
+
+```sh
+# Set working directory
+cd /raid/data/m33218012
+
+# Download uv binary langsung
+mkdir -p ./bin
+wget https://github.com/astral-sh/uv/releases/latest/download/uv-x86_64-unknown-linux-gnu.tar.gz
+
+# Extract
+tar -xzf uv-x86_64-unknown-linux-gnu.tar.gz
+mv uv-x86_64-unknown-linux-gnu/uv ./bin/
+
+# Add to PATH
+export PATH="/raid/data/m33218012/bin:$PATH"
+
+# Verifikasi
+./bin/uv --version
+```
+
 ## Instalasi Python
 
 **Opsi 1: Download langsung dari python.org**
